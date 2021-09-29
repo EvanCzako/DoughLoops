@@ -1,3 +1,5 @@
+Link to live site: https://evanczako.github.io/DoughLoops/
+
 ---BACKGROUND---
 
 DoughLoops is a simple step-sequencer that allows users to make drum beats. They have the ability to click on a grid to add or remove sounds that are triggered at the appropriate time when users press the “Play” button. The pattern is be played on an infinite loop until users press the “Stop” button. Users have the ability to adjust the volume of the different drum sounds, the sound for each drum, the tempo of the loop, the length of the loop, and the number of subdivisions for each beat.
