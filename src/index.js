@@ -13,8 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
     let stopButton = document.getElementById('stopButton');
     let startButton = document.getElementById('startButton');
     let helpButton = document.getElementById('helpButton');
+    let resetPatternButton = document.getElementById('resetPatternButton');
     stopButton.addEventListener('click', master.stop.bind(master));
     startButton.addEventListener('click', master.start.bind(master));
+    resetPatternButton.addEventListener('click', master.resetPattern.bind(master));
     helpButton.addEventListener('click',beatsInfo.dispHelp.bind(beatsInfo));
     setInterval(player.playInstruments.bind(player),1);
 });
