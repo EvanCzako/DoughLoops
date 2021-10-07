@@ -23,12 +23,14 @@ class BeatsInfo {
         this.dispNumBeats.innerHTML = this.numBeats.value;
         this.gridMaker.updateGrid.bind(this.gridMaker)(this.numBeats.value,this.numSubDivs.value);
         this.totalSteps = this.numBeats.value * this.numSubDivs.value;
+        this.player.resetStep();
     }
 
     updateSubDivs(){
         this.dispSubDivs.innerHTML = this.numSubDivs.value;
         this.gridMaker.updateGrid.bind(this.gridMaker)(this.numBeats.value, this.numSubDivs.value);
         this.totalSteps = this.numBeats.value * this.numSubDivs.value;
+        this.player.resetStep();
     }
 
     updateTempo(){
