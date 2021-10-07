@@ -146,6 +146,7 @@ button {
 }
 
 .links a {
+  text-decoration: none;
   color: rgb(214, 0, 186);
   text-shadow: 1px 1px 1px #ff00ff;
   transition: color 1s, text-shadow 1s, font-size 1s;
