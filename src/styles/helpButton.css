@@ -29,3 +29,12 @@
 .showHelp ~ #helpPopUpText {
     opacity: 100%;
 }
+
+#readmeButton {
+    position: absolute;
+    margin-left: 1020px;
+    background-color: rgb(255, 0, 255);
+    border-color: rebeccapurple;
+    width: 70px;
+    height: 35px;
+}

@@ -54,7 +54,8 @@
             change the volume or sound type for a given instrument. Make
             something dope and enjoy!
         </span>
-
+        <!-- <button id="readmeButton" onclick="https://github.com/EvanCzako/DoughLoops">ReadMe</button> -->
+        <button id="readmeButton" onclick="window.open('https://github.com/EvanCzako/DoughLoops')" type="button">ReadMe</button>
         <ul class='trackParams'>
             <label># of subdivisions
                 <input type="range" id="numSubDivs" name="numSubDivs" min="1" max="8" value="4">
@@ -80,9 +81,13 @@
 
         <button id="startButton" >Play</button>
         <button id="stopButton">Stop</button>
+        <button id="resetPatternButton">Reset Pattern</button>
 
 
         <br>
+        <br>
+        <div id="instr-vol-label">Volume</div>
+        <div id='instr-sel-label'>Type</div>
         <br>
         <div id="instrumentSeqs">
             <label>

@@ -18,6 +18,10 @@ class Master {
         }
     }
 
+    resetPattern(){
+        this.player.beatsInfo.updateBeats();
+    }
+
     setPlayer(player){
         this.player = player;
     }

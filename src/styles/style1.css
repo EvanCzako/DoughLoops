@@ -20,7 +20,7 @@ body {
 #instrumentSeqs label div {
     display: flex;
     position: absolute;
-    left: 300px;
+    left: 320px;
 }
 
 .container {  
@@ -133,6 +133,11 @@ button {
   border-color: rgb(168, 0, 0);
 }
 
+#resetPatternButton{
+  background-color: rgb(255, 166, 0);
+  border-color: rgb(209, 136, 0);
+}
+
 .links {
   display: block;
 }
@@ -170,4 +175,16 @@ img {
   top: 0px;
   height: 200px;
   width: 370px;
+}
+
+#instr-vol-label {
+  position: absolute;
+  text-decoration: underline;
+  left: 90px;
+}
+
+#instr-sel-label {
+  position: absolute;
+  text-decoration: underline;
+  left: 205px;
 }
