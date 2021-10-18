@@ -54,4 +54,4 @@ Note: In a future version, Web Audio API may be used to allow users to add audio
 
 - Wednesday: Add help button, finish stylizing with CSS, and deploy project to GitHub.
 
-- Thursday morning: Update README.
+- Thursday morning: Update README. 
