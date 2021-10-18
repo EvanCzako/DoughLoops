@@ -30,7 +30,7 @@ With the DoughLoops step sequencer, users are able to:
 
  - The below functions demonstrate my methodology for offsetting the imprecisions of JavaScripts setInterval function to ensure the long term accuracy of the DoughLoops BPM metric. I use a JavaScript Date object as an absolute benchmark for determining how much lag there is after each beat.
 
-```
+```js
     resetLastTime(){
         let interval = 1000 * 60 / parseInt(this.beatsInfo.numSubDivs.value) / (parseInt(this.beatsInfo.tempo.value));
         this.lastTime = Date.now() - interval;
