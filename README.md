@@ -26,11 +26,17 @@ With the DoughLoops step sequencer, users are able to:
  - A production README
  - Links to my LinkedIn, GitHub, and portfolio
 
+## Code Snippets
+
+ - The below functions demonstrate my methodology for offsetting the imprecisions of JavaScripts setInterval function to ensure the long term accuracy of the DoughLoops BPM metric. I use a JavaScript Date object as an absolute benchmark for determining how much lag there is after each beat.
+
+![image info](./src/art/CodeSnippet1.png)
+
 ## Wireframes
 
 ![image info](./Wireframes/wireframe.png)
 
-## Technologies, libraries, and APIs
+## Technologies, Libraries, and APIs
 
 This project was implemented with the following technologies:
  
@@ -40,7 +46,7 @@ Note: In a future version, Web Audio API may be used to allow users to add audio
 
 ## Implementation timeline
 
-- Friday afternoon and weekend: Get webpack running successfully. Create a step sequencer grid based on the user's input for the "# of beats" and "# of subdivisions" fields. Add individual track volume and tempo features.
+- Friday afternoon and weekend: Get Webpack running successfully. Create a step sequencer grid based on the user's input for the "# of beats" and "# of subdivisions" fields. Add individual track volume and tempo features.
 
 - Monday: Brush up tempo feature to account for lag and allow users to select different drum sounds.
 
